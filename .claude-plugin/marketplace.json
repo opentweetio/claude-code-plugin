@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "opentweet-claude-code-plugin",
+  "description": "Official OpenTweet plugin for Claude Code - manage your X/Twitter presence from AI",
+  "owner": {
+    "name": "OpenTweet",
+    "email": "hello@opentweet.io"
+  },
+  "metadata": {
+    "description": "Official OpenTweet plugin for Claude Code - manage your X/Twitter presence from AI"
+  },
+  "plugins": [
+    {
+      "name": "opentweet",
+      "source": "./",
+      "description": "Manage your X/Twitter presence from Claude Code. Create tweets, schedule posts, manage evergreen queues, view analytics, and more.",
+      "version": "1.0.0",
+      "author": {
+        "name": "OpenTweet"
+      },
+      "homepage": "https://opentweet.io/mcp",
+      "repository": "https://github.com/opentweetio/claude-code-plugin",
+      "license": "MIT",
+      "keywords": ["twitter", "x", "social-media", "scheduling", "analytics"],
+      "category": "social-media"
+    }
+  ]
+}
