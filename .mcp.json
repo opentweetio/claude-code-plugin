@@ -1,10 +1,10 @@
 {
   "mcpServers": {
     "opentweet": {
-      "type": "http",
-      "url": "https://opentweet.io/mcp",
-      "headers": {
-        "Authorization": "Bearer ${user_config.OPENTWEET_API_KEY}"
+      "command": "npx",
+      "args": ["-y", "@opentweet/mcp-server"],
+      "env": {
+        "OPENTWEET_API_KEY": "${OPENTWEET_API_KEY}"
       }
     }
   }

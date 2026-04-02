@@ -10,11 +10,5 @@
   "homepage": "https://opentweet.io/mcp",
   "repository": "https://github.com/opentweetio/claude-code-plugin",
   "license": "MIT",
-  "keywords": ["twitter", "x", "social-media", "scheduling", "analytics", "tweets", "mcp"],
-  "userConfig": {
-    "OPENTWEET_API_KEY": {
-      "description": "Your OpenTweet API key (get one at https://opentweet.io/developer)",
-      "sensitive": true
-    }
-  }
+  "keywords": ["twitter", "x", "social-media", "scheduling", "analytics", "tweets", "mcp"]
 }
